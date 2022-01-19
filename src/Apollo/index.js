@@ -3,7 +3,7 @@ import { ApolloProvider as Provider, ApolloClient, InMemoryCache } from '@apollo
 const cache = new InMemoryCache();
 
 const client = new ApolloClient({
-  uri: 'https://apollographql-odyssey-server.herokuapp.com/',
+  uri: 'https://apollo-odyssey-server.herokuapp.com/',
   cache,
 })
 
